@@ -2,6 +2,24 @@
 
 > This is a list of the most recent additions to Awesome Swift Education. Note that this list was first created on 1/10/2016. You can follow along with the evolution of Awesome Swift Education by looking at the recent additions to this list
 
+#### 7/29/2016
+- Stateful mixins in Swift [:page_facing_up:](http://cutting.io/posts/stateful-mixins-in-swift/)
+- Swift emerging patterns and idioms [:page_facing_up:](http://cutting.io/posts/swifty-emerging-patterns-and-idioms/)
+- Using Custom Types as Enumeration Case Raw Values in Swift [:page_facing_up:](http://andybargh.com/custom-enumeration-raw-values/)
+- Migrating to Swift 3 [:page_facing_up:](http://www.jessesquires.com/migrating-to-swift-3/)
+- Xcode Visual Memory Debugger [:page_facing_up:](http://useyourloaf.com/blog/xcode-visual-memory-debugger/)
+- A composable pattern for pure state machines with effects [:pencil:](https://gist.github.com/andymatuschak/d5f0a8730ad601bcccae97e8398e25b2)
+- Measurements and Units in Foundation [:page_facing_up:](http://oleb.net/blog/2016/07/measurements-and-units/)
+- A versatile SQLite toolkit for Swift [:pencil2:](https://github.com/groue/GRDB.swift)
+- Swift Snippets [:page_facing_up:](https://github.com/hyperoslo/SwiftSnippets)
+- Implementing Equatable for Protocols in Swift [:page_facing_up:](https://www.natashatherobot.com/implementing-equatable-for-protocols-swift/)
+- Danger [:link:](http://danger.systems)
+- Stack View Rotation [:page_facing_up:](https://www.natashatherobot.com/magical-view-rotation-with-stackview/)
+- Object oriented Swift [:pencil2:](https://github.com/JohnSundell/Flow)
+- Enums as configuration: the anti-pattern [:page_facing_up:](http://www.jessesquires.com/enums-as-configs/)
+- Nuclide Swift [:pencil2:](https://github.com/modocache/nuclide/tree/nuclide-swift)
+- The Introduction to RxSwift that you've been missing [:page_facing_up:](https://github.com/DTVD/The-introduction-to-RxSwift-you-have-been-missing)
+
 #### 7/28/2016
 - Top SDKs used by App Store Top 200 Free Apps [:link:](http://mightysignal.com/top-ios-sdks)
 - Super Spectacular Server-Side Swift! [:microphone:](https://realm.io/news/slug-edward-jiang-server-side-swift/)
