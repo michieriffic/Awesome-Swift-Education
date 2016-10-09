@@ -12,10 +12,10 @@
 - [References](#references)
 - [Learning Resources](#learning-resources)
 - [Books](#books)
-- [Video](#video)
+- [Videos](#videos)
 - [Community](#community)
 - [Programming](#programming)
-    + [Audio](#audio)
+    + [Audio and Video](#audio-and-video)
     + [Closures and Functions](#closures-and-functions)
     + [Collections](#collections)
     + [Command Line and Scripting](#command-line-and-scripting)
@@ -175,7 +175,7 @@
 
 [:arrow_up:](#index)
 
-## **Video**
+## **Videos**
 + Presentations
     + :fire: pomo.tv Presentations from all of the events [:microphone:](http://www.pomo.tv/events/)
     + WWDC 2015 Presentations [:microphone:](https://developer.apple.com/search/?q=wwdc&type=Videos) [:pencil2:](https://developer.apple.com/sample-code/wwdc/2015/) [:pencil:](http://asciiwwdc.com/)
@@ -189,7 +189,7 @@
     - CocoaConf Videos [:video_camera:](http://cocoaconf.com/videos)
     - All Presentations from 360iDev 2015 [:video_camera:](https://vimeopro.com/360conferences/360idev-2015)
     - NSSpain 2015 interviews [:video_camera:](https://www.youtube.com/playlist?list=PLKxa4AIfm4pU5xvPbQ1gaWkYXn7KANFz4)
-+ Other Video
++ Other Videos
     - Swift Talk [:video_camera:](https://talk.objc.io)
     - Cocoaheads.tv [:video_camera:](http://cocoaheads.tv/)
     - Swift Language Youtube Channel [:video_camera:](https://www.youtube.com/channel/UCml4lCH0xdl6Jm91RiPPIig)
@@ -259,9 +259,19 @@
 
 ## **Programming with Swift**
 
-#### **Audio**
-- AudioKit [:pencil2:](https://github.com/audiokit/AudioKit)
-- Wrap Core Audio [:pencil2:](https://github.com/rnine/AMCoreAudio)
+#### **Audio and Video**
+- Audio
+    - AudioKit [:pencil2:](https://github.com/audiokit/AudioKit)
+    - Wrap Core Audio [:pencil2:](https://github.com/rnine/AMCoreAudio)
+- Video 
+    - Video Player in Swift [:pencil2:](https://github.com/piemonte/Player)
+    - AVFoundation Development page [:link:](https://developer.apple.com/av-foundation/)
+    - HTTP Live Streaming [:link:](http://stackoverflow.com/questions/8291691/implementation-of-http-live-streaming-in-ios/11535000#11535000)
+    - Player for streaming local and remote audio files. [:pencil2:](https://github.com/teodorpatras/Jukebox)
+    - Playing a video file from a server in Swift [:link:](http://stackoverflow.com/questions/25034497/playing-a-video-file-from-a-server-in-swift)
+    - Streaming on iOS [:link:](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/StreamingMediaGuide/Introduction/Introduction.html)
+    - Realtime H264 decoding library for iOS. [:pencil2:](https://github.com/tidwall/Avios)
+    - The Hypermedia Project [:pencil:](https://github.com/the-hypermedia-project/charter)
 
 [:arrow_up:](#index)
 
@@ -380,7 +390,7 @@
 - Swift framework for parsing command-line arguments [:pencil2:](https://github.com/Carthage/Commandant)
 - Command Line Utilities in Swift [:page_facing_up:](http://dev.iachieved.it/iachievedit/command-line-utilities-in-swift/)
 - Make command line applications in Swift [:pencil:](https://github.com/jatoben/CommandLine)
-- SwiftingBridge [::](https://github.com/garrett-davidson/SwiftingBridge)
+- SwiftingBridge [:pencil2:](https://github.com/garrett-davidson/SwiftingBridge)
 
 [:arrow_up:](#index)
 
@@ -603,6 +613,7 @@
         - Native Swift Patterns [:page_facing_up:](https://realm.io/news/slug-nick-oneill-native-swift-patterns/)
         - Swifty? [:floppy_disk:](https://speakerdeck.com/dcutting/swifty)
         - Swift emerging patterns and idioms [:page_facing_up:](http://cutting.io/posts/swifty-emerging-patterns-and-idioms/)
+        - Design Patterns For Safe Timer Usage [:page_facing_up:](http://www.cocoawithlove.com/blog/2016/07/30/timer-problems.html)
     - Template Method
         + Template Method Pattern in Swift [:page_facing_up:](http://stackoverflow.com/questions/31757514/swift-how-to-support-template-method-design-pattern-since-swift-doesnt-have)
     - Strategy
@@ -917,8 +928,6 @@
     - How I learned to stop worrying and love the functor [:microphone:](https://vimeo.com/132657092) [:floppy_disk:](https://github.com/gfontenot/talks/tree/master/Functors)
     - The Missing Apply Function in Swift [:page_facing_up:](https://www.drivenbycode.com/the-missing-apply-function-in-swift/)
     - Avoid consecutive “if let” declarations in Swift [:link:](http://stackoverflow.com/questions/26671833/avoid-consecutive-if-let-declarations-in-swift/26673847#26673847)
-- Arrows
-    + Arrows in Swift [:pencil:](https://github.com/typelift/Swiftz/blob/master/Swiftz/Arrow.swift)
 - Monads
     - About
         - What is a Monad? [:page_facing_up:](http://codeplease.io/2015/08/05/monads/) [:pencil:](https://gist.github.com/RuiAAPeres/0b317796f810839fe706)
@@ -951,6 +960,9 @@
     - Making flatMap lazy [:page_facing_up:](https://bigonotetaking.wordpress.com/2015/07/19/making-flatmap-lazy/)
     - How are swift lazy collections implemented [:page_facing_up:](https://medium.com/@NSomar/lazy-collection-cb4903a36ff7#.7izheiih6)
     - Lazy Collections [:pencil:](https://gist.github.com/oarrabi/df877678161976b9e553)
+- Other Functional Tools 
+    - The scan function is the core of all programming [:page_facing_up:](https://medium.com/@atnemecek/the-scan-function-is-the-core-of-all-programming-5f5085df76e7#.sy9sz46ll)
+    + Arrows in Swift [:pencil:](https://github.com/typelift/Swiftz/blob/master/Swiftz/Arrow.swift)
 - Zipper
     - Implementing zip and zipWith recursively [:page_facing_up:](http://www.luby.info/2015/03/15/swift-zip-zipWith-recursion.html)
     - Custom Zip Function [:page_facing_up:](http://flexmonkey.blogspot.com/2015/05/a-test-driven-custom-swift-zip-function.html)
@@ -969,6 +981,7 @@
     - Futures and monads [:link:](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20151214/002995.html)
     - Promise + progress + pause + cancel + retry [:pencil2:](https://github.com/ReactKit/SwiftTask)
     - Composability with Swift [:floppy_disk:](https://speakerdeck.com/bontojr/composability-with-swift)
+    - Promises In Swift [:page_facing_up:](http://khanlou.com/2016/08/promises-in-swift/)
 - Combinators
     - Parser Combinators in Swift [:microphone:](https://realm.io/news/tryswift-yasuhiro-inami-parser-combinator/)
     + Y Combinators in Swift [:pencil:](https://gist.github.com/kongtomorrow/e95bea13162ca0e29d4b#file-gistfile1-swift) [:pencil:](https://gist.github.com/kongtomorrow/e95bea13162ca0e29d4b)  [:page_facing_up:](https://medium.com/@ayanonagon/the-y-combinator-no-not-that-one-7268d8d9c46#.7z8p7rbu7)
@@ -986,7 +999,7 @@
     - Lenses in Swift, or how to change parts of immutable objects [:page_facing_up:](http://narf.pl/posts/lenses-in-swift)
     - Lenso [:pencil2:](https://github.com/narfdotpl/lenso)
     - Lens Parser [:pencil2:](https://github.com/KarlHarnois/LensParser)
-- Categories
+- Category Theory
     + From Category Theory to Swift [:pencil2:](https://github.com/mbrandonw/naturally-swift)
     + Categories in Swift [:pencil:](https://gist.github.com/CodaFi/4d0ce6a3cc0cb1085720)
     - Yoneda Embedding [:pencil:](https://gist.github.com/CodaFi/d4efd98697130bd35f5c)
@@ -1354,8 +1367,8 @@
     - Android
         - How to Start Android Development with an iOS Background [:page_facing_up:](http://savvyapps.com/blog/how-to-start-android-development-with-an-ios-background)
         - Faceoff: Android vs. iOS [:microphone:](https://realm.io/news/appbuilders-kriplaney-vieira-ios-android-faceoff/)
-	     - Using JNI in Swift to put an app into the Android Play Store [:page_facing_up:](https://medium.com/@ephemer/using-jni-in-swift-to-put-an-app-into-the-android-play-store-732e542a99dd#.i66lhd5at)
-	     - How we put an app in the Android Play Store using Swift [:page_facing_up:](https://medium.com/@ephemer/how-we-put-an-app-in-the-android-play-store-using-swift-67bd99573e3c#.3n77wcutr)
+	    - Using JNI in Swift to put an app into the Android Play Store [:page_facing_up:](https://medium.com/@ephemer/using-jni-in-swift-to-put-an-app-into-the-android-play-store-732e542a99dd#.i66lhd5at)
+	    - How we put an app in the Android Play Store using Swift [:page_facing_up:](https://medium.com/@ephemer/how-we-put-an-app-in-the-android-play-store-using-swift-67bd99573e3c#.3n77wcutr)
 	 - Go
         - Swift vs Golang [:floppy_disk:](http://go-talks.appspot.com/github.com/wangkuiyi/swiftgo/swiftgo.slide#1)
         - Loops Go vs Swift [:page_facing_up:](http://lithium3141.com/blog/2015/11/26/variable-capture-in-go-vs-swift/)
@@ -1379,8 +1392,11 @@
     - Groovy
         - Apple's Swift programming language inspired by Groovy [:page_facing_up:](http://glaforge.appspot.com/article/apple-s-swift-programming-language-inspired-by-groovy)
     - React Native
-		 - Tutorial: Custom React Native Components in Swift [:page_facing_up:](http://kevin-deleon.com/2015/05/custom-react-native-components-in-swift/)
-		 - Bridge a Swift view in React Native [:page_facing_up:](http://browniefed.com/blog/react-native-how-to-bridge-a-swift-view/)
+		- Tutorial: Custom React Native Components in Swift [:page_facing_up:](http://kevin-deleon.com/2015/05/custom-react-native-components-in-swift/)
+		- Bridge a Swift view in React Native [:page_facing_up:](http://browniefed.com/blog/react-native-how-to-bridge-a-swift-view/)
+        - Creating a Swift-ReactNative project [:pencil:](https://gist.github.com/boopathi/27d21956fefcb5b168fe)
+        - Swift Modules for React Native [:page_facing_up:](http://moduscreate.com/swift-modules-for-react-native/)
+        - Swift to React Native [:floppy_disk:](https://www.dropbox.com/s/xg53fjyzrogxji9/UIKonf.pdf?dl=0)
     + ObjC
         + How is Swift Faster than Objective-C? [:page_facing_up:](https://www.quora.com/How-is-Swift-faster-than-Objective-C)
         - A Eulogy for Objective C [:microphone:](https://realm.io/news/altconf-aaron-hillegass-eulogy-for-objective-c/)
@@ -1584,6 +1600,7 @@
     - ICU Text Transforms in Cocoa [:page_facing_up:](http://oleb.net/blog/2016/01/icu-text-transforms/)
     - Swift Substrings [:page_facing_up:](http://vluxe.io/swift-sub-strings.html)
     - DSL for Attributed Strings [:pencil2:](https://github.com/delba/TextAttributes)
+    - Functional String Formatting [:page_facing_up:](https://github.com/stephencelis/Formatting)
 + Lexing and Parsing
     - Abstract Syntax Tree [:page_facing_up:](http://ankit.im/swift/2016/02/29/swift-abstract-syntax-tree/)
     + Creating a Lexer in Swift [:page_facing_up:](http://blog.matthewcheok.com/writing-a-lexer-in-swift/)
@@ -1896,12 +1913,14 @@
 ## **iOS Programming with Swift**
 
 #### **Application Structure / Architecture**
-- Extinct
+- Extinct Architectures
     - Dropped Patterns [:page_facing_up:](http://artsy.github.io/blog/2015/09/01/Cocoa-Architecture-Dropped-Design-Patterns/)
 - Elm Like Architecture
     - "Elmification" of Swift [:page_facing_up:](https://medium.com/design-x-code/elmification-of-swift-af14b7f92b30#.k1njpy7sn)
     - Simple model for Elm-like composable programs [:pencil2:](https://github.com/davidcairns/AppComponents)
     - Swift Elm [:pencil2:](https://github.com/momentumworks/swift-elm)
+    - Using Elm/React inspired architecture to build Cocoa apps in a functional way [:microphone:](https://vimeo.com/153520719)
+    - Cycle.js in Swift [:pencil2:](https://github.com/salutis/Cycle)
 - Functional
     + Functional View Controllers [:page_facing_up:](http://chris.eidhof.nl/posts/functional-view-controllers.html) [:pencil:](https://gist.github.com/chriseidhof/244f1a9c8a39a4c809f9)
 - Massive View Controllers
@@ -1943,6 +1962,10 @@
     - Safer with VIPER [:page_facing_up:](https://medium.com/ios-os-x-development/safer-uiviewcontroller-creation-when-using-storyboards-1915ac2b2c80#.bynj7y4gd)
     - VIPER architecture for iOS applications [:microphone:](https://medium.com/brigade-engineering/brigades-experience-using-an-mvc-alternative-36ef1601a41f#.rvj3cxose)
     - ARCHITECTING MOBILE APPS WITH (B)VIPER MODULES [:microphone:](http://www.mttnow.com/blog/architecting-mobile-apps-with-bviper-modules)
+- React Based Architecures 
+    - Redux in Swift [:pencil2:](https://github.com/salutis/Redux)
+    - React like Swift [:pencil:](https://github.com/alexdrone/Render)
+    - React.js in Swift [:page_facing_up:](http://blog.scottlogic.com/2015/03/05/reactjs-in-swift.html)
 - Unidirectional Data Flow
     - Ziggurat iOS App Architecture [:page_facing_up:](https://corner.squareup.com/2015/12/ziggurat-ios-app-architecture.html)
     - One Way Data Flow Architecture in Swift [:microphone:](https://www.youtube.com/watch?v=4cP1p5VOrSI)  [:page_facing_up:](http://subjc.com/going-with-the-flow)
@@ -1956,7 +1979,6 @@
     + Uber Jetstream [:pencil2:](https://github.com/uber/jetstream-ios)
     - Building a Unidirectional Data Flow app with Realm [:page_facing_up:](https://realm.io/news/unidirectional-data-flow-in-swift/)
     + Swift Flow + RxSwift [:pencil:](https://gist.github.com/Ben-G/c33486169d68a6f3d12f)
-    - React like Swift [:pencil:](https://github.com/alexdrone/Render)
     - MVVM, RxSwift and DataControllers [:microphone:](https://skillsmatter.com/skillscasts/7863-mvvm-rxswift-and-datacontrollers)
 - State Machines
     - State Machines in Swift [:pencil2:](https://github.com/ReactKit/SwiftState) [:floppy_disk:](https://github.com/tangphillip/state-machine-talk) [:pencil:](https://gist.github.com/monyschuk/e2c5609599195a30cc66)
@@ -2032,6 +2054,7 @@
 - iOS 9 Programming Fundamentals with Swift [:link:](http://www.apeth.com/swiftBook/index.html)
 - Top SDKs used by App Store Top 200 Free Apps [:link:](http://mightysignal.com/top-ios-sdks)
 - Introduction to SiriKit [:link:](https://developer.apple.com/library/prerelease/content/documentation/Intents/Conceptual/SiriIntegrationGuide/index.html#//apple_ref/doc/uid/TP40016875)
+- Apple Energy Efficiency Guide [:link:](https://developer.apple.com/library/ios/documentation/Performance/Conceptual/EnergyGuide-iOS/index.html#//apple_ref/doc/uid/TP40015243-CH3-SW1) 
 
 [:arrow_up:](#index)
 
@@ -2041,6 +2064,8 @@
     - Functional JSON parsing, mapping to objects, and serialize to JSON [:pencil:](https://github.com/ra1028/Alembic)
     - Functional JSON Parsing with Tyro [:pencil2:](https://github.com/typelift/Tyro)
     + Efficient JSON Parsing with Functional Concepts [:page_facing_up:](https://robots.thoughtbot.com/efficient-json-in-swift-with-functional-concepts-and-generics)
+- Protocol Buffers
+    - Protocol Buffers [:pencil2:](https://github.com/alexeyxo/protobuf-swift)
 - { JSON, Swift, and Type Safety } [:floppy_disk:](https://speakerdeck.com/swiftsummit/anthony-levings-json-swift-and-type-safety-its-a-wrap)
 - JSON in Swift [:page_facing_up:](http://blog.matthewcheok.com/json-and-swift/)
 + Swift and JSON: Are we doing it right? [:microphone:](https://skillsmatter.com/skillscasts/6202-swift-and-json-are-we-doing-it-right)
@@ -2090,6 +2115,8 @@
     - CALayer.com [:link:](http://calayer.com/)
 - Core Graphics
     - Core Graphics Tutorial [:page_facing_up:](http://www.raywenderlich.com/90690/modern-core-graphics-with-swift-part-1)
+    - SwiftGL [:link:](http://www.swiftgl.org/)
+    - CocoaOpenGL-Swift [:pencil2:](https://github.com/joshb/CocoaOpenGL-Swift)
 - Core Image
     - Core Image Blog [:notebook:](http://flexmonkey.blogspot.com/)
 - Presenting
@@ -2100,6 +2127,7 @@
     - Metal and Swift [:microphone:](https://realm.io/news/swift-summit-simon-gladman-metal/)
     - Why use SpriteKit? [:page_facing_up:](https://www.quora.com/Which-tools-are-you-using-with-SpriteKit)
     - 3D Graphics with Metal in Swift [:microphone:](https://realm.io/news/3d-graphics-metal-swift/)
+    - Metal Tutorial [:page_facing_up:](https://www.raywenderlich.com/77488/ios-8-metal-tutorial-swift-getting-started)
 - Stack View
     - Stack View Rotation [:page_facing_up:](https://www.natashatherobot.com/magical-view-rotation-with-stackview/)
 - TableViews
